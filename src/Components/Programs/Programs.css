@@ -48,3 +48,15 @@
 .program:hover .caption{
     opacity: 1;
 }
+/* madia query */
+@media (max-width:650px){
+    .programs{
+        flex-direction: column;
+
+    }
+    .program{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+    
+}
